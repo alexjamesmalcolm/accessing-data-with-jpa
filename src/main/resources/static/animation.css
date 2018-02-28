@@ -1,0 +1,17 @@
+.container {
+	perspective: 800px;
+}
+
+table {
+	transform: rotateY(0deg);
+	transform-style: preserve-3d;
+	transition-property: all;
+	transition-duration: 2s;
+}
+
+table:hover {
+	transform: rotateY(180deg);
+	transform-style: preserve-3d;
+	transition-property: all;
+	transition-duration: 2s;
+}

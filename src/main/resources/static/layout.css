@@ -1,0 +1,29 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+.container {
+	display: grid;
+	grid-template-rows: 3rem auto 2rem;
+	height: 100vh;
+	overflow: hidden;
+}
+
+header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+section.table-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
